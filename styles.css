@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+/* General */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+  line-height: 1.5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.row {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  display: flex;
+}
+
+/* NAVIGATION */
+
+
