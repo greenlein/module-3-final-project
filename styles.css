@@ -24,6 +24,22 @@ section {
   padding: 0 32px;
 }
 
+.section__title {
+  font-size: 48px;
+  font-weight: 900;
+  color: rgb(36, 62, 99);
+  line-height: 1.5;
+  margin: 16px 0;
+  letter-spacing: 0.025em;
+}
+
+.section__para {
+  font-size: 18px;
+  font-weight: 500;
+  color: #7c8ba1;
+  line-height: 1.625;
+}
+
 .container {
   padding: 96px 0;
 }
@@ -36,6 +52,14 @@ h1 {
   font-size: 48px;
   color: #1a202c;
   line-height: 1.25;
+}
+
+h4 {
+  font-size: 16px;
+  color: #6415ff;
+  letter-spacing: 1.6px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 p {
@@ -201,4 +225,63 @@ img {
 
 .row__img--svg {
   bottom: 0;
+}
+
+/* FEATURES */
+
+.features__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#features .section__para {
+  text-align: center;
+  max-width: 576px;
+}
+
+.features__img--wrapper {
+  display: flex;
+  border: 1px #e5e7eb solid;
+  border-radius: 500px;
+  padding: 20px;
+}
+
+.features__img {
+  width: 24px;
+  height: 24px;
+}
+
+.features__cards {
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.features__card {
+  display: flex;
+  width: calc(100% / 3);
+  align-items: flex-start;
+  padding: 32px 24px;
+}
+
+.features__card-text {
+  margin-top: 8px;
+  margin-left: 16px;
+}
+
+.features__card-text--para {
+  margin-top: 16px;
+  font-size: 16px;
+  max-width: calc(634px / 3);
+  color: rgb(124, 139, 161);
+  line-height: 2;
+  font-weight: 500;
+}
+
+/* WORK SECTION */
+
+.work__container {
+  display: flex;
 }
