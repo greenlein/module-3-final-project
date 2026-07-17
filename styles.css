@@ -163,13 +163,13 @@ img {
   font-weight: 500;
   font-size: 16px;
   padding: 20px 192px 20px 32px;
-  margin-right: 36px;
+  margin-right: 64px;
 }
 
 .header__form--button {
   position: absolute;
   right: 0;
-  margin: 8px 2.5vw;
+  margin: 8px 72px;
   padding: 14px 40px;
   font-weight: 700;
   font-size: 16px;
