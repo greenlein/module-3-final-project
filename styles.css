@@ -111,6 +111,10 @@ img {
   width: 100%;
 }
 
+svg {
+  width: 100%;
+}
+
 /* NAVIGATION */
 
 .nav {
@@ -346,11 +350,11 @@ img {
 
 .steps__img--wrapper {
   display: flex;
+  position: relative;
   width: 50%;
 }
 
 .steps__row {
-  display: flex;
   flex-direction: column;
   width: 50%;
   padding: 32px 0 0 64px;
@@ -389,4 +393,87 @@ img {
   margin-top: 12px;
   font-weight: 500;
   line-height: 2;
+}
+
+/* VALUES */
+
+#values .row {
+  display: flex;
+  align-items: center;
+}
+
+#values .section__title {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  line-height: 1.25;
+}
+
+.values__row {
+  width: 50%;
+  padding: 32px 64px 32px 0;
+}
+
+.values__cards {
+  display: flex;
+  /* max-width: none; */
+  /* flex-direction: row; */
+}
+
+.values__card {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.values__card:nth-child(1) {
+  margin-top: 32px;
+  margin-right: 24px;
+}
+
+.values__card:nth-child(2) {
+  margin-top: 32px;
+}
+
+.values__title {
+  display: flex;
+  align-items: center;
+}
+
+.values__title-img--wrapper {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+}
+
+.values__card:nth-child(1) .values__title-img--wrapper {
+  background-color: #9ae6b4;
+}
+
+.values__card:nth-child(2) .values__title-img--wrapper {
+  background-color: #feb2b2;
+}
+
+.values__title-name {
+  margin-left: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #243e63;
+}
+
+.values__card--para {
+  margin-top: 16px;
+  line-height: 1.625;
+  color: #718096;
+  padding-right: 16px;
+}
+
+.values__img-row--wrapper {
+  width: 50%;
+}
+
+#values button {
+  margin-top: 48px;
 }
